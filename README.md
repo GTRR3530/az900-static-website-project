@@ -10,7 +10,7 @@ This project helped me understand basic Azure cloud concepts such as Resource Gr
 ## Live Website
 
 Website URL:  
-`Paste your Azure website link here`
+https://staticwebappaz900.z29.web.core.windows.net/
 
 ## Azure Services Used
 
