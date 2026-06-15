@@ -1,6 +1,6 @@
 # AZ-900 Static Website Project
 
-## Project Overview
+## Project 1
 
 This is a beginner-friendly Microsoft Azure AZ-900 project.  
 I hosted a static website using Azure Storage Static Website Hosting.
@@ -53,10 +53,48 @@ User Browser
 - How the `$web` container is used for static website hosting.
 - How to host a simple website using Azure without using a traditional web server.
 
-## Project Status
 
-Completed
 
-## Author
+## Project 2: Azure Cost Management Budget
 
-Somesh
+### Project Overview
+
+This project demonstrates how to create a budget in Azure Cost Management to monitor cloud spending.
+
+I created a monthly budget for my Azure for Students subscription to understand Azure cost monitoring, spending limits, and budget alerts.
+
+### Azure Services Used
+
+- Azure Cost Management
+- Azure Budget
+- Azure Subscription
+- Cost Alerts
+
+### Budget Configuration
+
+- Budget Name: `azurestudentbudget`
+- Reset Period: Monthly
+- Budget Amount: `$1`
+- Alert Type: Actual Cost
+- Alert Thresholds: 50%, 80%, and 100%
+
+### Steps Followed
+
+1. Opened Azure Cost Management + Billing.
+2. Selected the subscription scope.
+3. Created a monthly budget.
+4. Added actual cost alert conditions.
+5. Added email recipient for alert notification.
+6. Verified the budget in the Budgets dashboard.
+
+### Screenshot
+
+![Azure Budget Created](azure-budget-created.png)
+
+### What I Learned
+
+- How Azure Cost Management works.
+- How to create a monthly budget.
+- How actual cost alerts work.
+- How Azure helps monitor cloud spending.
+- Budget alerts notify users but do not automatically stop resources.
